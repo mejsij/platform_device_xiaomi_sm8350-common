@@ -49,5 +49,10 @@ persist.vendor.sensors.enable.mag_filter=true
 ro.spark.maintainer=Mejsi
 ro.spark.device.name=Renoir
 
+# Blur
+ro.launcher.blur.appLaunch=0
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1 
+
 # WFD
 persist.debug.wfd.enable=1
